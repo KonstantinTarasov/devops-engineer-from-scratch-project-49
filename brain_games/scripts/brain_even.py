@@ -9,5 +9,5 @@ def main():
                 correct_answer=correct_answer)
 
 
-if __name__ == "__main__":  # Обязательно нужно проверять, иначе будет задвоение
+if __name__ == "__main__":
     main()
