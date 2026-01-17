@@ -3,3 +3,6 @@
 
 ### asciinema with an example of installing the package, launching the game, and the player's victory and defeat:
 [![asciicast](https://asciinema.org/a/3Wp17sA7NSdNTpHXlQi28zylC.svg)](https://asciinema.org/a/3Wp17sA7NSdNTpHXlQi28zylC)
+
+### asciinema with an example of , launching the game brain-gcd, and the player's victory and defeat:
+[![asciicast](https://asciinema.org/a/mbOrvMaQiJrT0sU8)]
