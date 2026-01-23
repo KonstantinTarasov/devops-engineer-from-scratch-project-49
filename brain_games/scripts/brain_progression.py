@@ -1,4 +1,4 @@
-from brain_games.games.brain_even import MAX_COUNT, GAME_RULES, get_question_answer
+from brain_games.games.brain_progression import MAX_COUNT, GAME_RULES, get_question_answer
 from brain_games.engine import game_engine
 
 
