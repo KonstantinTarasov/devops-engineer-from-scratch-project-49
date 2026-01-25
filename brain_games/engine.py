@@ -11,7 +11,6 @@ def game_engine(game_rules: str, max_count: int, func_question: Callable):
     
     count = 0
     while count < max_count:
-#       question = func_question()
         question, correct_answer = func_question()        
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
