@@ -22,5 +22,5 @@ def game_engine(game_rules: str, max_count: int, func_question: Callable):
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
-            break
+            exit()
     print(f"Congratulations, {name}!")
