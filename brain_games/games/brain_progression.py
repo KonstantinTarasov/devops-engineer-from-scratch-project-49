@@ -3,6 +3,7 @@ import random
 MAX_COUNT = 3
 GAME_RULES = 'What number is missing in the progression? '
 
+
 # создаем последовательность
 def get_sequence():
     number_1 = random.randint(1, 50)
@@ -16,6 +17,7 @@ def get_sequence():
         sequence.append(current_element)
         i += 1
     return sequence
+
 
 # находим случайный элемент и заменяем его
 def get_question_answer():

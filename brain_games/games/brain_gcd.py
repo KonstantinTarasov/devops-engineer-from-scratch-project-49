@@ -3,6 +3,7 @@ import random
 MAX_COUNT = 3
 GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
+
 def get_question_answer():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 100)

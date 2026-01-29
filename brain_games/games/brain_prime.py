@@ -3,9 +3,9 @@ import random
 MAX_COUNT = 3
 GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no". '
 
+
 def get_sequence():
     sequence = list(range(2, 51))
-    
     
     n = 0
     while n < len(sequence):
