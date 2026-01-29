@@ -23,7 +23,8 @@ def game_engine(game_rules: str, max_count: int, func_question: Callable):
             print("Correct")
             count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"'{answer}' is wrong answer ;(."
+                  f" Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             exit()
     print(f"Congratulations, {name}!")
