@@ -3,7 +3,7 @@ from typing import Callable
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.module import greet
+from brain_games.cli import greet
 
 
 def game_engine(game_rules: str, max_count: int, func_question: Callable):
