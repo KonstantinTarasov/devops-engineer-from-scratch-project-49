@@ -1,20 +1,18 @@
-from typing import Callable
-
 import prompt
 
 from brain_games.cli import welcome_user
 from brain_games.cli import greet
 
 
-def game_engine(game_rules: str, max_count: int, func_question: Callable):
+def game_engine(game):
 
     greet()
     name = welcome_user()  # переменная обязательно присваивается 
-    print(f'{game_rules}')  # аккуратно с кавычками при интерпаляции
+    print(f'{game.GAME_RULES}')  # аккуратно с кавычками при интерпаляции
     
     count = 0
-    while count < max_count:
-        question, correct_answer = func_question()        
+    while count < game.MAX_COUNT:
+        question, correct_answer = game.get_question_answer()        
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
         correct = correct_answer
