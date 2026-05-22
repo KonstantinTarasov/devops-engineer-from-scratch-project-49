@@ -10,8 +10,9 @@ def game_engine(game):
     name = welcome_user()  # переменная обязательно присваивается 
     print(f'{game.GAME_RULES}')  # аккуратно с кавычками при интерпаляции
     
-    count = 0
-    while count < game.MAX_COUNT:
+    #count = 0
+    for count in range(game.MAX_COUNT):
+    #while count < game.MAX_COUNT:
         question, correct_answer = game.get_question_answer()        
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
@@ -25,4 +26,5 @@ def game_engine(game):
                   f" Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             exit()
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
