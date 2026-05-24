@@ -6,18 +6,26 @@ GAME_RULES = 'What number is missing in the progression? '
 
 # создаем последовательность
 def get_sequence():
-    number_1 = random.randint(1, 50)
-    step = random.randint(1, 6)
-
-    count = 10
+# УПРОЩЕН КОД С ПОМОЩЬЮ ФУНКЦИИ RANGE
+#    number_1 = random.randint(1, 10)
+    number_1 = 0
+    step = random.randint(1, 4)
+    count = 37
     sequence = []
-    i = 0
-    while i < count:
-        current_element = number_1 + i * step
-        sequence.append(current_element)
-        i += 1
+#    i = 0
+#    count = 10
+#    while i < count:
+#        current_element = number_1 + i * step
+#        sequence.append(current_element)
+#        i += 1
+#    return sequence
+    numbers = range(number_1, count, step)
+    for number in numbers:
+        sequence.append(number)
+        if len(sequence) >= 10:
+            break
     return sequence
-
+    
 
 # находим случайный элемент и заменяем его
 def get_question_answer():
