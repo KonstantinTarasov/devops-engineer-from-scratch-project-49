@@ -1,6 +1,30 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/KonstantinTarasov/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KonstantinTarasov/devops-engineer-from-scratch-project-49/actions)
 
+# Brain games - Игры разума
+
+ Проект на курсе DevOps-инженер в Онлайн-школе программирования Хекслет
+
+### Краткое описание по играм
+
+ Содержит в себе 5 игр:
+
+* Игра калькулятор. Нужно правиильно произвести операцию над двумя числами, есть три попытки.
+
+* Игра угадать число в прогресии, есть три попвтки ошибаться нельзя.
+
+* Игра общий делитель. Необходимо найти наибольший общий делитель.
+
+* Игра простое число. Нужно ответить - является ли число простым ? Три попытки, ошибаться нельзя.
+
+* Игра четное число. Нужно ответить  - является ли число четным, так же есть три попытки.
+
+### Курс на Хекслете
+
+[Курс на Хекслете](https://ru.hexlet.io/programs/devops-engineer-from-scratch)
+
+# Instructions for games
+
 ### asciinema with an example of installing the package, launching the game, and the player's victory and defeat:
 [![asciicast](https://asciinema.org/a/3Wp17sA7NSdNTpHXlQi28zylC.svg)](https://asciinema.org/a/3Wp17sA7NSdNTpHXlQi28zylC)
 
