@@ -1,12 +1,13 @@
 import prompt
 
 from brain_games.cli import welcome_user
-from brain_games.cli import greet
+# from brain_games.cli import greet
 
 
 def game_engine(game):
-
-    greet()
+    # greet()
+    # переесли greet из cli и вынесли из функции приветствие
+    print('Welcome to the Brain Games!')
     name = welcome_user()  # переменная обязательно присваивается 
     print(f'{game.GAME_RULES}')  # аккуратно с кавычками при интерпаляции
     

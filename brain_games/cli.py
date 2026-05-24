@@ -1,8 +1,8 @@
 import prompt
 
-
-def greet():
-    print('Welcome to the Brain Games!')
+# переонсим приветствие в движок и выводим из функцции
+# def greet():
+#    print('Welcome to the Brain Games!')
 
 
 def welcome_user():
